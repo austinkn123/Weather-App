@@ -1,0 +1,103 @@
+:root {
+  background-image: url(img/backgroundPic.webp);
+  background-size: cover; 
+
+}
+
+.header{
+  font-family: Bahnschrift SemiBold;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  margin: auto;
+  
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+
+.weather{
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  height:100%;
+
+}
+
+.box {
+
+  background-color: aliceblue;
+  padding: 110px;
+  margin: 60px;
+  position: relative;
+  box-shadow: 10px -10px 5px rgb(56, 54, 54);
+  text-align: center;
+  display:inline-block;
+  width: 90px;
+  border-radius: 25px;
+  height: 10%;
+}
+
+
+.sunny {
+  background-image: url(img/sunnyBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.rainy{
+  background-image: url(img/rainyPic.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cloudy{
+  background-image: url(img/cloudyPic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.foggy{
+  background-image: url(img/foggyPic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.date{
+  font-family: 	Calibri ;
+  color: white;
+  position: absolute;
+  top: 0px;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.details{
+  font-family: Calibri;
+  color: white;
+  position: absolute;
+  top: auto;
+  bottom: 5px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.image{
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+  width: 60px;
+  height: 100%;
+
+}
